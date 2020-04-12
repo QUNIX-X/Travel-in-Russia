@@ -1,9 +1,0 @@
-.cover__bg{
-    position: absolute;
-    object-fit: cover;
-    width: inherit;
-    min-height: inherit;
-    z-index: -2;
-    opacity: 0.5;
-    border-radius: 0px;
-}

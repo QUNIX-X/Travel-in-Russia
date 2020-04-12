@@ -1,8 +1,0 @@
-.video__image{
-    object-fit: cover;
-    position: absolute;
-    border-radius: 5px;
-    width: 100%;
-    min-height: 100%;
-    opacity: 0.5;
-}

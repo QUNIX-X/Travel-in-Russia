@@ -1,9 +1,0 @@
-.footer__item{
-    padding: 0 0 0 13px;
-    display: inline;
-    list-style: none;
-}
-
-.footer__item:first-of-type{
-    padding: 0;
-}
