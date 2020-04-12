@@ -1,0 +1,8 @@
+.intro__content-column:first-child{
+    width: 683px;
+}
+
+.intro__content-column:last-child{
+    width: 283px;
+    margin: 0 0 0 18px;
+}

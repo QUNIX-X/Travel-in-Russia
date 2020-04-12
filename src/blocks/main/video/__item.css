@@ -1,0 +1,15 @@
+.video__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 49.24%;
+    min-height: 323px;
+
+    color: white;
+    text-decoration: none;
+}
+
+.video__item:hover .video__rect{
+    background-color: black;
+    opacity: 0.8;
+}

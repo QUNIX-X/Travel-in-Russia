@@ -1,0 +1,75 @@
+@import url(./__content-title.css);
+@import url(./__content-subtitle.css);
+@import url(./__container.css);
+@import url(./__comment.css);
+@import url(./__image.css);
+@import url(./__author.css);
+@import url(./__quote.css);
+
+.comments {
+    margin: 102px auto 95px auto;
+}
+
+@media screen and (max-width: 1024px){
+    .comments__content-title{
+        width: 90%;
+        font-size: 72px;
+        line-height: 65px;
+    }
+    .comments__content-subtitle{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 768px){
+    .comments__content-title{
+        width: 90%;
+        font-size: 42px;
+        line-height: 46px;
+    }
+    .comments__content-subtitle{
+        width: 100%;
+    }
+    .comment{
+        width: calc(100%/2);
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto 48px auto;
+    }
+    .comments__container{
+        flex-direction: column;
+    }
+    .comment__image{
+        order: -2;
+        width: 96px;
+        height: 96px;
+        align-self: center;
+        margin: 0 0 17px 0;
+    }
+    .comment__author{
+        margin: 0 0 24px 0;
+        order: -1;
+        align-self: center;
+    }
+}
+@media screen and (max-width: 425px){
+    .comments__content-title{
+        width: 100%;
+
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .content-title{
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .content-subtitle{
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .comment{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto 48px auto;
+    }
+}

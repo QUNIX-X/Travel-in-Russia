@@ -1,0 +1,7 @@
+.video__rect{
+    border-radius: 5px;
+    width: inherit;
+    min-height: inherit;
+    opacity: 0;
+    transition: 0.7s linear;
+}

@@ -1,0 +1,20 @@
+@import url(./__logo.css);
+@import url(./__lang.css);
+@import url(./__link.css);
+@import url(./__link_active.css);
+
+.header {
+    display: flex;
+    margin: 30px auto 0 auto;
+}
+
+@media screen and (max-width: 375px){
+    .header__logo{
+        width: 142px;
+        height: 42px;
+    }
+    .header__link{
+        font-size: 18px;
+        line-height: 17px;  
+    }
+}
